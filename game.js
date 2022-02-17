@@ -203,6 +203,7 @@ const bird = {
                 if(state.current == state.game){
                     state.current = state.over;
                     DIE.play();
+                    bird.speedReset
                 }
             }
             
